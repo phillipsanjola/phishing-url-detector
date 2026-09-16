@@ -2,7 +2,7 @@ My first python project, any feedback is appreciated.
 This project looks at URLs from a dataset and extracts features from it that helps to determine whether the URL is phishing.
 I used a dataset from Kaggle called PhiUSIIL Phishing URL Dataset with 235,795 rows.
 
-#Phishing indicators:
+Phishing indicators:
 -URL length,
 -Number of dots,
 -Presence of '@' symbols,
@@ -12,7 +12,7 @@ I used a dataset from Kaggle called PhiUSIIL Phishing URL Dataset with 235,795 r
 -Presence of suspicious words, such as: login, verify, secure , update and confirm,
 -Presence of suspicious TLDs (.xyz, .top, .club, .info).
 
-#Results:
+Results:
 -First 4 indicators: 92.37% accuracy
 -All 8 features: 93.95%
 -So first 4 features most important
