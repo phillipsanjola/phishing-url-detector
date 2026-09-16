@@ -3,20 +3,20 @@ This project looks at URLs from a dataset and extracts features from it that hel
 I used a dataset from Kaggle called PhiUSIIL Phishing URL Dataset with 235,795 rows.
 
 Phishing indicators:
--URL length,
--Number of dots,
--Presence of '@' symbols,
--Whether it starts with https,
--Number of hyphens,
--Presence of a URL shortener,
--Presence of suspicious words, such as: login, verify, secure , update and confirm,
--Presence of suspicious TLDs (.xyz, .top, .club, .info).
+1. URL length,
+2. Number of dots,
+3. Presence of '@' symbols,
+4. Whether it starts with https,
+5. Number of hyphens,
+6. Presence of a URL shortener,
+7. Presence of suspicious words, such as: login, verify, secure , update and confirm,
+8. Presence of suspicious TLDs (.xyz, .top, .club, .info).
 
 Results:
--First 4 indicators: 92.37% accuracy
--All 8 features: 93.95%
--So first 4 features most important
--Most important feature is HTTPS presence, then URL length
+1. First 4 indicators: 92.37% accuracy
+2. All 8 features: 93.95%
+3. So first 4 features most important
+4. Most important feature is HTTPS presence, then URL length
 
 How:
 1. Created a function to identify features from each URL
