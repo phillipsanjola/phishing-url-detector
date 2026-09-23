@@ -15,8 +15,7 @@ Phishing indicators:
 Results:
 1. First 4 indicators: 92.37% accuracy
 2. All 8 features: 93.95%
-3. So first 4 features most important
-4. Most important feature is HTTPS presence, then URL length
+3.Random Forest Classifier indicated that HTTPS presence was the most important feature, followed by URL length.
 
 How:
 1. Created a function to identify features from each URL
@@ -24,6 +23,7 @@ How:
 3. Train a RandomForestClassifier on the training data
 4. Evaluate the model's predictions against the test set
 
-TO ADD: A user interface where you can type a URL and it will detect whether it is phishing.
+Future improvements:
+1. Add a user interface that allows users to enter a URL and receive a phishing prediction.
 
 Tech used: Python, pandas, scikit-learn
