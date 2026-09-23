@@ -15,7 +15,7 @@ Phishing indicators:
 Results:
 1. First 4 indicators: 92.37% accuracy
 2. All 8 features: 93.95%
-3.Random Forest Classifier indicated that HTTPS presence was the most important feature, followed by URL length.
+3. Random Forest Classifier indicated that HTTPS presence was the most important feature, followed by URL length.
 
 How:
 1. Created a function to identify features from each URL
